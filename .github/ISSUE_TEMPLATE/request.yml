@@ -1,0 +1,93 @@
+name: Shiny-Proxy-Host-Request
+description: Request a web app to be migrated to shiny-proxy
+title: "[Migration]: "
+labels: ["Migration", "Evaluation"]
+projects: [""]
+assignees:
+  - rachelicr
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for your interest in working with the scientific software group!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: email@icr.ac.uk
+    validations:
+      required: true
+  - type: input
+    id: projectname
+    attributes:
+      label: Project Name
+      description: What is the name of the project?
+      placeholder: Project Name
+    validations:
+      required: true
+  - type: input
+    id: groupname
+    attributes:
+      label: Group Name
+      description: What is the name of the group?
+      placeholder: Group Name
+  - type: textarea
+    id: describe
+    attributes:
+      label: Describe the project
+      description: Also tell us, what do you want from the change?
+      placeholder: Something
+      value: "New request"
+    validations:
+      required: true
+  - type: dropdown
+    id: privacy
+    attributes:
+      label: Privacy
+      description: Is this a private or public facing site?
+      options:
+        - Public - no sensitive data
+        - Public - hidden sensitive data
+        - Private - no sensitive data
+        - Private - internally sensitive
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: links
+    attributes:
+      label: Paper link
+      description: Is this site (or will it be) linked to in a paper, or other public links ?
+      options:
+        - label: Has paper or public links?
+          required: false
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: What language are you using?
+      options:
+        - R
+        - Python
+        - Other
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: users
+    attributes:
+      label: Number of users
+      description: Roughly how many users, who and how often is it used?
+      render: shell
+  - type: textarea
+    id: data
+    attributes:
+      label: About the data
+      description: Roughly how large is the data, how many files, and how is it distributed?
+      render: shell  
+  - type: markdown
+    id: thanks
+    attributes:
+      value: "Thanks for completing our form!"
+  
+  
