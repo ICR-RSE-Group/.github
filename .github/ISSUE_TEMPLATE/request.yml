@@ -1,6 +1,6 @@
 name: Request-for-RSE-Group
-description: Request a web app to be migrated to shiny-proxy
-title: "[Migration]: "
+description: Request a services from the RSE Group
+title: "[RSEGroup]: "
 labels: ["Migration", "Evaluation"]
 projects: [""]
 assignees:
