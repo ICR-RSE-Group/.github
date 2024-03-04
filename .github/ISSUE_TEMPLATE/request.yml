@@ -1,4 +1,4 @@
-name: Shiny-Proxy-Host-Request
+name: Request-for-RSE-Group
 description: Request a web app to be migrated to shiny-proxy
 title: "[Migration]: "
 labels: ["Migration", "Evaluation"]
