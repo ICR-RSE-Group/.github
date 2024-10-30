@@ -7,11 +7,7 @@ body:
     id: request
     attributes:
       label: Details
-      description: Enter details:
+      description: Enter details
       placeholder: details
     validations:
       required: true
-  - type: markdown
-    id: thanks
-    attributes:
-      value: "Thanks for completing our form!"
