@@ -11,3 +11,7 @@ body:
       placeholder: details
     validations:
       required: true
+  - type: markdown
+    id: thanks
+    attributes:
+      value: "Thanks for completing our form!"
