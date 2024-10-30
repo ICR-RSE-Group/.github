@@ -3,7 +3,7 @@ name: Dev-RSE
 description: Enhancement or bug
 title: "[RSEDev]: "
 body:    
-  - type: input
+  - type: textarea
     id: request
     attributes:
       label: Details
