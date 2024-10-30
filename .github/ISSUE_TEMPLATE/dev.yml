@@ -1,1 +1,14 @@
 
+name: Dev-RSE
+description: Enhancement or bug
+title: "[RSEDev]: "
+body:    
+  - type: input
+    id: request
+    attributes:
+      label: Details
+      description: Enter details:
+      placeholder: ...
+    validations:
+      required: true
+  
