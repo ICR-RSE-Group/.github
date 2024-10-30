@@ -11,4 +11,3 @@ body:
       placeholder: details
     validations:
       required: true
-  
