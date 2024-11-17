@@ -1,7 +1,7 @@
 
 name: Dev-RSE
 description: Enhancement or bug
-title: "[RSEDev]: "
+title: "[RSE-Dev]: "
 body:    
   - type: textarea
     id: request
